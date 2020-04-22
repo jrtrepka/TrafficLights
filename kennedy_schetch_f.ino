@@ -79,14 +79,7 @@ void loop()
 
       //blinkYellowLight(westYellow);
       blinkYellowlight(westYellow);
-      // for ( int i = 0; i < 5; i++ ) //blink yellow light
-      // {
-
-      // digitalWrite(westYellow, LOW);
-      //  delay(yellowBlinkTime);
-      //  digitalWrite(westYellow, HIGH);
-      //  delay(yellowBlinkTime);
-      //  }
+      
       digitalWrite(westYellow, LOW);
       digitalWrite(westRed, LOW); // change west-facing lights from red to green
       digitalWrite(westGreen, HIGH);
