@@ -1,5 +1,6 @@
 // kennedy traffic light and pedestrian
 //pedestrian ligh east goes when green on west is on vice versa.
+//new stuff
 #define westButton 3
 #define eastButton 13
 #define westRed 2
